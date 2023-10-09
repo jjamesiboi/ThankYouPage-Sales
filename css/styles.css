@@ -1,0 +1,51 @@
+html, body{
+  height: 100vh;
+}
+body.myBody{
+  background-color: #e3afc7;
+}
+header.card-header{
+  background-color: #000000;
+}
+.newColor{
+  background-color: #000000;
+}
+h1.card-title{
+  font-family: 'Fredoka One', cursive;
+  font-size: 50px;
+  color: #ffffff;
+}
+p.card-text{
+  font-family: 'Lato', sans-serif;
+  font-weight:700;
+  font-size: 35px;
+  padding: 0;
+  margin: 0;
+  color: #ffffff;
+}
+div.myRow{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer.newColor{
+  background-color: #000000;
+  height: 72px;
+}
+p.copyright{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Fredoka One', cursive;
+  font-size: 16px;
+  color: #ffffff;
+}
+@media (max-width: 299px){
+  h1.card-title{
+    font-size: 30px;
+  }
+  p.card-text{
+    font-size: 20px;
+  }
+} 
