@@ -2,10 +2,10 @@ html, body{
   height: 100vh;
 }
 body.myBody {
-  background: url('images/standard (27).gif') no-repeat center center fixed;
-  /* Remove the following line to allow the background image to cover the entire body */
-  /* background-size: cover; */
+  background: url('../images/standard (27).gif') no-repeat center center fixed;
+  background-size: contain;
 }
+
 
 header.card-header{
   background-color: #000000;
