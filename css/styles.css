@@ -1,39 +1,64 @@
-html, body{
+html, body {
   height: 100vh;
 }
-body.myBody{
+
+body.myBody {
   background-color: #6495ED;
 }
-header.card-header{
+
+header.card-header {
   background-color: #000000;
 }
-.newColor{
+
+.newColor {
   background-color: #000000;
 }
-h1.card-title{
+
+h1.card-title {
   font-family: 'Fredoka One', cursive;
   font-size: 50px;
   color: #ffffff;
 }
-p.card-text{
+
+p.card-text {
   font-family: 'Lato', sans-serif;
-  font-weight:700;
+  font-weight: 700;
   font-size: 35px;
   padding: 0;
   margin: 0;
   color: #ffffff;
 }
-div.myRow{
+
+p.countdown {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  padding: 0;
+  margin: 0;
+  color: #ffffff;
+}
+
+p.redirect-info {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  padding: 0;
+  margin: 0;
+  color: #ffffff;
+}
+
+div.myRow {
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-footer.newColor{
+
+footer.newColor {
   background-color: #000000;
   height: 72px;
 }
-p.copyright{
+
+p.copyright {
   margin: 0;
   padding: 0;
   text-align: center;
@@ -41,11 +66,12 @@ p.copyright{
   font-size: 16px;
   color: #ffffff;
 }
-@media (max-width: 299px){
-  h1.card-title{
+
+@media (max-width: 299px) {
+  h1.card-title {
     font-size: 30px;
   }
-  p.card-text{
+  p.card-text {
     font-size: 20px;
   }
-} 
+}
