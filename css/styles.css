@@ -2,7 +2,7 @@ html, body{
   height: 100vh;
 }
 body.myBody {
-  background: url('ThankYouPage-Sales/images/standard (27).gif') no-repeat center center fixed;
+  background: url('images/standard (27).gif') no-repeat center center fixed;
   background-size: cover;
 }
 header.card-header{
